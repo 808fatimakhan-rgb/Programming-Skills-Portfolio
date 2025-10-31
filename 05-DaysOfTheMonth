@@ -1,0 +1,57 @@
+# Days of the month exercise
+# This program tell sthe user how many days are in a given month.
+
+# keys = month numbers
+# values = number of days in that month
+days_in_month = { 
+    1: 31,
+    2: 28, # Febuary (leap years are fixed in the extension)
+    3: 31, # March
+    4: 30, # April
+    5: 31, # May
+    6: 30, # June
+    7: 31, # July
+    8: 31, # August
+    9: 30, # September
+    10: 31, # October
+    11: 30, # November
+    12: 31  # December
+}
+month_names= {
+    1: "January",
+    2: "February",
+    3: "March",
+    4: "April",
+    5: "May",
+    6: "June",
+    7: "July",
+    8: "August",
+    9: "September",
+    10: "October",
+    11: "November",
+    12: "December"
+ }
+ # Get month number from the user
+month = int(input("Enter the month number (1 to 12): "))
+
+#Check if the month number is valid
+if month in days_in_month:
+    #If the user enters February, ask for the year to check for leap year
+    if month == 2:
+        leap = input("Is it a leap year? (yes/no): ")
+
+        if leap.lower == "yes":
+            print("There are 29 days in February. ")
+        else:
+            print("There are 28 days in Febuary.")
+    else: 
+        # Show message with numer of days in the month
+        print(f"There are {days_in_month[month]} days in the month of {month_names[month]}.")
+else:
+    #If user enters an invalid month number 
+    print("Invalid month number. Please enter a number between 1 and 12.")
+
+
+
+
+
