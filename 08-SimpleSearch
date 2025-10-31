@@ -1,0 +1,15 @@
+# Exercise 8: Simple Search 
+# create a list of names
+names= [ "Jake" "Zac", "Ian", "Ron", "Sam", "Dave"]
+# Get name to search from user
+search_name= input("Enter the name you are searching for:")
+
+# Convert both user input and list items to lowercase for comparison
+search_name_lower = search_name.lower()
+names_lower = [name.lower() for name in names]
+
+# Check if the name is in the list
+if search_name_lower in search_name.lower():
+    print(search_name, "is found in the list.")
+else: 
+    print("Sorry!", search_name, "not found in the list.")
