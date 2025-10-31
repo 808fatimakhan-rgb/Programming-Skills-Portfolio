@@ -1,4 +1,5 @@
-# a simple program that asks the user a question, evaluates their answer, and provides feedback.quit
+# Exercise 4: Primitive Quiz
+# a simple program that asks the user a question, evaluates their answer, and provides feedback
 
 Question = input("What is the capital of France?")
 # Check if the answer is correct
@@ -33,3 +34,4 @@ for ever_country, capital in questions.items():
         print(f'Your final score is {score} out of {len(questions)}')
 print(f"You got  {score} out of {len(questions)} correct.")
 print("Thank you for playing!")
+
