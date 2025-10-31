@@ -1,5 +1,12 @@
+# Exercise 2: Simple Sums
+
+# Define two numbers
 num1=8
 num2=10
-num3= num1+num2
+
+# Calculate their sum
+num3= num1+num2 #add num1 and num2
+
+# Print the result
 sum_result= num3
 print(sum_result)
