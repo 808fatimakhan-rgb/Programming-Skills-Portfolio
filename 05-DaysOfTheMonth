@@ -1,5 +1,5 @@
-# Days of the month exercise
-# This program tell sthe user how many days are in a given month.
+# Exercise 5: Days of the month 
+# This program tells the user how many days are in a given month.
 
 # keys = month numbers
 # values = number of days in that month
@@ -50,6 +50,7 @@ if month in days_in_month:
 else:
     #If user enters an invalid month number 
     print("Invalid month number. Please enter a number between 1 and 12.")
+
 
 
 
