@@ -1,0 +1,27 @@
+# Exercise 3: Biography Information
+
+# Step 1: Collect user information
+
+name = input("Enter your full  name: ")
+hometown = input("Enter your hometown: ")
+age = input("Enter your age: ")  # Ask for age and make sure it's a number
+
+# Ask for age until the user provides a valid number
+while True:
+ age_input = input("Enter your age: ")
+ if age_input.isdigit():     # Check that the input is a number
+  age = int(age_input)
+  break       # Exit the loop if input is valid
+ else: 
+  print ("Please enter a valid number for age.")
+
+# Step 2 : Store information in to a dictionary
+
+biography = {
+    "Name": name,
+    "Age": age,
+    "Hometown": hometown
+}
+
+#Step 3 : print the information on separate lines using one print statement
+print("Name:", biography["Name"], "\nHometown:", biography["Hometown"], "\nAge:", biography["Age"])
