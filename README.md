@@ -1,5 +1,5 @@
 # Exercise 1: Coding is Cool
-# A simple program to show items from a list and print them as a se
+# A simple program to show items from a list and print them as a sentence.
 
 # Create a list of words
 my_list = ['Coding', 'Is', 'Cool']
