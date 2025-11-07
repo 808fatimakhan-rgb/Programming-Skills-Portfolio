@@ -1,7 +1,6 @@
 # Exercise 6: Brute Force Attack
 # This program allows up to 5 attempts. If the user fails 5 times,
 
-
 correct_password = "12345"   # correct password (string)
 max_attempts = 5             # maximum allowed attempts
 attempts = 0                 # counter for attempts
@@ -22,3 +21,4 @@ while attempts < max_attempts:
             # This means attempts reached max_attempts
             print("Wrong password. No attempts left.")
             print("Maximum attempts reached. Authorities have been alerted.")
+
