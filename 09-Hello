@@ -1,0 +1,13 @@
+# Exercise 9: Hello
+
+# Define the hello() function
+def hello():
+    print("Hello")  # This prints "Hello" to the console
+
+# Define the main function
+def main():
+    hello()  # Call the hello() function
+
+# This ensures main() runs when the program is executed
+if __name__ == "__main__":
+    main()
